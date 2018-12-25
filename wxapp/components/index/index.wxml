@@ -1,9 +1,0 @@
-<!-- templates -->
-<template name="index$87f6f250">
-  <view class="_div data-v-5d1f245e">
-    <canvas ref="tag" class="_canvas data-v-5d1f245e"></canvas>
-  </view>
-</template>
-
-<!-- main -->
-<template is="index$87f6f250" data="{{ ...$root['0'], $root }}"/>

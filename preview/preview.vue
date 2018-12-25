@@ -1,7 +1,7 @@
 
 <template>
   <div id="app">
-    <p class="header">@cube/tag-canvas</p>
+    <p class="header">tag-canvas</p>
     <div class="content" v-if="paint">
       <tag :height="height" :width="width" :padding="padding" :bg-color="bgColor" :font-color="fontColor" :font-size="fontSize" :text="text" :borderRadius="borderRadius" :borderWidth="borderWidth" :borderColor="borderColor"></tag>
     </div>

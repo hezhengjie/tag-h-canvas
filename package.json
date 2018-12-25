@@ -1,43 +1,23 @@
 {
-  "name": "@cube/component-tag-canvas",
-  "version": "1.0.1",
-  "description": "cube component",
+  "name": "h-tag-canvas",
+  "version": "1.0.0",
+  "description": "tag canvas component",
   "author": {
     "name": "hugh",
-    "email": "hezhengjie@meituan.com"
+    "email": "hzj727792893@gmail.com"
   },
   "main": "./src/index.vue",
-  "wxapp": "./wxapp/index",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "build": "better-npm-run build4wx && better-npm-run buildvue",
-    "buildvue": "better-npm-run buildvue",
-    "build4wx": "better-npm-run build4wx",
+    "build": "better-npm-run buildvue",
     "prepublishOnly": "npm version patch -m 'chore(release): %s'",
     "test": "karma start --single-run"
-  },
-  "betterScripts": {
-    "build4wx": {
-      "command": "node build4wx/build.js",
-      "env": {
-        "APP_ENV": "wxapp"
-      }
-    },
-    "buildvue": {
-      "command": "node build/build.js",
-      "env": {
-        "APP_ENV": "vue"
-      }
-    }
   },
   "dependencies": {
     "vue": "^2.5.0"
   },
   "devDependencies": {
-    "@cube/px2rem-loader": "^0.1.2",
-    "@gfe/lx-watcher": "^1.2.0",
-    "@gfe/vue-lx-watcher": "^1.0.0",
     "@vue/test-utils": "^1.0.0-beta.24",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
@@ -55,7 +35,7 @@
     "copy-webpack-plugin": "^4.0.1",
     "cross-env": "^5.2.0",
     "css-loader": "^0.28.0",
-    "eslint": "^5.4.0",
+    "eslint": "5.4.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-standard": "^11.0.0",
     "eslint-friendly-formatter": "^4.0.1",
@@ -124,8 +104,5 @@
   "bugs": {
     "url": "http:///issues"
   },
-  "homepage": "http://",
-  "cubesrc": "src",
-  "cubename": "component-tag-canvas",
-  "cubetype": "component"
+  "homepage": "http://"
 }

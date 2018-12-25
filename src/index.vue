@@ -172,7 +172,6 @@
         if (RegRem.test(size)) {
           // rem单位
           let remBase = parseFloat(getComputedStyle(document.querySelector('html')).fontSize.match(/[0-9.]*/g)[0]);
-          console.log(remBase)
           return num * remBase;
         }
         console.error('请保证输入的参数是数字或者rem或者px');

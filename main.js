@@ -1,8 +1,5 @@
 import Vue from 'vue'
-import App from './preview/preview'
-import VueLxWatcher from '@gfe/vue-lx-watcher'
-
-Vue.use(VueLxWatcher)
+import App from './preview/preview';
 
 Vue.config.productionTip = false
 

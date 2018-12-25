@@ -4,10 +4,7 @@
 
 const path = require('path')
 const packageConfig = require('../package')
-const prodPublicPath = `//g.51ping.com/app/cube-preview/${packageConfig.name.replace(
-    /^.+?\//,
-    '',
-)}/`
+const prodPublicPath ='./'
 
 module.exports = {
     dev: {
