@@ -1,0 +1,32 @@
+.DS_Store
+npm-debug.log*
+.npmrc
+lerna-debug.log*
+package-lock.json
+lib/
+node_modules/
+packages/**/lib/
+packages/**/node_modules/
+packages/**/.npmrc
+packages/**/package-lock.json
+/lib
+/.nyc_output
+/test/**/dist
+/dist/
+# tnpm cache directory
+/test/**/.cache
+
+# IDE
+.idea
+.vscode/
+build/
+config/
+static/
+.babelrc
+.editorconfig
+.postcssrc.js
+f2eci.json
+index.html
+main.js
+
+
