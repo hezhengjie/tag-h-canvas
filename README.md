@@ -5,9 +5,6 @@
 
 tag 组件，canvas 绘制，保证垂直居中
 
-## 预览(Preview)
-
-[链接]()
 
 ## 安装(Installation)
 
